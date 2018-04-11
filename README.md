@@ -23,7 +23,7 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: User Enumeration - Signing in with a good username but bad password gives a bold error message. Logging in with a bad username and a bad password removes the bold.
 
 Vulnerability #2: __________________
 
