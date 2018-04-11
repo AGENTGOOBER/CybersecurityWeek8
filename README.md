@@ -1,6 +1,3 @@
-# CybersecurityWeek8
-This is my assignment for week 8
-
 # Project 8 - Pentesting Live Targets
 
 Time spent: **X** hours spent in total
