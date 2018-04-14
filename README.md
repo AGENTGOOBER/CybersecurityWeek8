@@ -16,7 +16,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection - When on the public site, going to find a salesperson and selecting a salesperson shows the flaw. A single quote can be added to the URL and on the blue site the query is not sanitized. 
 
 Vulnerability #2: __________________
 
@@ -25,7 +25,7 @@ Vulnerability #2: __________________
 
 Vulnerability #1: User Enumeration - Signing in with a good username but bad password gives a bold error message. Logging in with a bad username and a bad password removes the bold. The mistake the developer made is changing the class name for the span which contains the error message. The class name is failed when it's a bad username, and the class name is failure when it's a good username but a bad password. The blue and red sites only use the failure class.
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Scripting - Leaving feedback on the contact tab of the public site with XSS will show up when logging in to the private site. 
 
 
 ## Red
