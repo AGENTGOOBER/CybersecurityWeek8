@@ -32,7 +32,7 @@ Vulnerability #2: Cross-Site Scripting - Leaving feedback on the contact tab of 
 
 Vulnerability #1: Insecure Direct Object Reference - On the red site when finding a salesperson, the salesperson id can be changed to chow id 10 which is noted as not being made public until September 1st.
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery - On the red site someone could leave a link in a comment for feedback. The admin then follows that link which would run cross-site request forgery. In the example I did, I changed Ken Barker to Kenneth Carson (Barbie reference). 
 
 
 ## Notes
