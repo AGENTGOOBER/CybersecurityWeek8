@@ -18,7 +18,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: SQL Injection - When on the public site, going to find a salesperson and selecting a salesperson shows the flaw. A single quote can be added to the URL and on the blue site the query is not sanitized. 
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation - The blue site allow you to change the session ID based off the ID of a logged in user in another browser, and use that ID to log in on another browser without needing the log in credentials.
 
 
 ## Green
