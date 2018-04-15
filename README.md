@@ -30,7 +30,7 @@ Vulnerability #2: Cross-Site Scripting - Leaving feedback on the contact tab of 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference - On the red site when finding a salesperson, the salesperson id can be changed to chow id 10 which is noted as not being made public until September 1st.
 
 Vulnerability #2: __________________
 
